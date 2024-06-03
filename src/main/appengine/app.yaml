@@ -1,0 +1,6 @@
+runtime: java17
+entrypoint: 'java -jar SpotifyArtistAPI-all.jar'
+env_variables:
+  MONGODB_URI_CLUSTER: "CLUSTER_URL"
+  SPARK_AUTH_USERNAME: "USERNAME"
+  SPARK_AUTH_PASSWORD: "PASSWORD"
